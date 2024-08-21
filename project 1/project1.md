@@ -60,9 +60,9 @@ click on allocate ip address
 ![15](![alt text](<../img folder/img 16.png>))
 
 # Then scroll down
-keep all the settings unchanged
+keep all the settings unchanged and click allocate
 ![16](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
 
 # then click on associate this elastic ip
-![17](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
+![17](![alt text](<../img folder/img18.png>))
 
