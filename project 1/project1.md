@@ -48,3 +48,21 @@ copy the example link
 and now paste the link you copied
 ![12](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.30.58.png>))
 
+# Go bact to the aws manangement console
+![13](![alt text](<../img folder/Img 14.png>))
+
+# Now here click on search
+And search elastic ip 
+1[14](![alt text](<../img folder/Screen Shot 2024-08-21 at 14.25.27.png>))
+
+# And now in elastic ip 
+click on allocate ip address
+![15](![alt text](<../img folder/img 16.png>))
+
+# Then scroll down
+keep all the settings unchanged
+![16](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
+
+# then click on associate this elastic ip
+![17](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
+
