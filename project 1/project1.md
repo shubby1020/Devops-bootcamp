@@ -21,7 +21,30 @@ choose the name for your key pair and click on it then scroll down
 ![5](![alt text](<../img folder/img5.png>))
 
 # After scrolling down you should see network settings 
-click on all the unchecked checkboxes
+click on all the unchecked checkboxes then scroll down
 ![6](![alt text](<../img folder/img 6.png>))
 
+# After scrolling down you should see view all instances
+click on it 
+![7](![alt text](<../img folder/img 7.png>))
+
+# Now you should see actions,instance id,etc
+click on instance id
+![8](![alt text](<../img folder/img 8.png>))
+
+# Now in instance id 
+click on conncet
+1[9](![alt text](<../img folder/img 9.png>))
+
+# Now in connect
+click on SSH client
+![10](![alt text](<../img folder/img 10.png>))
+
+# Now in SSH client
+copy the example link
+![11](![alt text](<../img folder/img 11.png>))
+
+# Now go the folder your .pem file was downloaded and click on it and open with terminal
+and now paste the link you copied
+![12](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.30.58.png>))
 
