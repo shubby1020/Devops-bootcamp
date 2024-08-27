@@ -66,3 +66,16 @@ keep all the settings unchanged and click allocate
 # then click on associate this elastic ip
 ![17](![alt text](<../img folder/img18.png>))
 
+# After clicking on it scroll down and  click on associate 
+![18](![alt text](<img folder/15.png>))
+
+# Install Nginx and Setup Your Website
+Execute the following commands.
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install nginx
+
+Start your Nginx server by running the sudo systemctl start nginx command, enable it to start on boot by executing sudo systemctl enable nginx, and then confirm if it's running with the sudo systemctl status nginx command.
+![19](![alt text](<img folder/Screen Shot 2024-08-19 at 21.56.09.png>))
