@@ -64,7 +64,7 @@ keep all the settings unchanged and click allocate
 ![16](![alt text](</img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
 
 # then click on associate this elastic ip
-![17](![alt text](</img folder/img18.png>))
+![17](![alt text](<img folder/img18.png>))
 
 # After clicking on it scroll down and  click on associate 
 ![18](![alt text](<img folder/15.png>))
