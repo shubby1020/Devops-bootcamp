@@ -71,6 +71,7 @@ keep all the settings unchanged and click allocate
 
 # Install Nginx and Setup Your Website
 Execute the following commands.
+
 sudo apt update
 
 sudo apt upgrade
@@ -78,7 +79,7 @@ sudo apt upgrade
 sudo apt install nginx
 
 Start your Nginx server by running the sudo systemctl start nginx command, enable it to start on boot by executing sudo systemctl enable nginx, and then confirm if it's running with the sudo systemctl status nginx command.
-![19](![alt text](<img folder/Screen Shot 2024-08-19 at 21.56.09.png>))
+![19](![alt text](<img folder/Screen Shot 2024-08-19 at 21.32.12.png>))
 
 # Go back to your EC2 dashboard and copy your Public IPv4 address.
 ![20](![alt text](<img folder/Screen Shot 2024-08-19 at 21.33.59.png>))
@@ -88,6 +89,16 @@ Visit your instances Public IPv4 address in a web browser to view the default Ng
 
 Download your website template from your preferred website by navigating to the website, locating the template you want, and obtaining the download URL for the website.
 
+## Go to tootplate website to get the website template to show on your website
+And choose any template of your choice but i chose the barista cafe own click on it
+![22](![alt text](<img folder/Screen Shot 2024-08-28 at 17.47.59.png>))
+
+# After clicking on it
+Scroll down to the download section, right-click to open the menu, and select Inspect from the options.
+![23](![alt text](<img folder/Screen Shot 2024-08-28 at 18.00.18.png>))
+
+# Select the Network tab.
 
 
+ # Click the Download buttom
 
