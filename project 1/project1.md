@@ -57,7 +57,7 @@ And search elastic ip
 
 # And now in elastic ip 
 click on allocate ip address
-![15](![alt text](<../img folder/img 16.png>))
+![15](![alt text](<../img folder/img-16.png>))
 
 # Then scroll down
 keep all the settings unchanged and click allocate
