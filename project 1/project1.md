@@ -79,3 +79,15 @@ sudo apt install nginx
 
 Start your Nginx server by running the sudo systemctl start nginx command, enable it to start on boot by executing sudo systemctl enable nginx, and then confirm if it's running with the sudo systemctl status nginx command.
 ![19](![alt text](<img folder/Screen Shot 2024-08-19 at 21.56.09.png>))
+
+# Go back to your EC2 dashboard and copy your Public IPv4 address.
+![20](![alt text](<img folder/Screen Shot 2024-08-19 at 21.33.59.png>))
+
+Visit your instances Public IPv4 address in a web browser to view the default Nginx startup page.
+![21](![alt text](<img folder/Screen Shot 2024-08-19 at 21.34.11.png>))
+
+Download your website template from your preferred website by navigating to the website, locating the template you want, and obtaining the download URL for the website.
+
+
+
+
