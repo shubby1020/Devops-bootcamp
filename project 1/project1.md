@@ -53,18 +53,18 @@ and now paste the link you copied
 
 # Now here click on search
 And search elastic ip 
-1[14](![alt text](<../img folder/Screen Shot 2024-08-21 at 14.25.27.png>))
+1[14](![alt text](</img folder/Screen Shot 2024-08-21 at 14.25.27.png>))
 
 # And now in elastic ip 
 click on allocate ip address
-![15](![alt text](<../img folder/img-16.png>))
+![15](![alt text](</img folder/img-16.png>))
 
 # Then scroll down
 keep all the settings unchanged and click allocate
-![16](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
+![16](![alt text](</img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
 
 # then click on associate this elastic ip
-![17](![alt text](<../img folder/img18.png>))
+![17](![alt text](</img folder/img18.png>))
 
 # After clicking on it scroll down and  click on associate 
 ![18](![alt text](<img folder/15.png>))
