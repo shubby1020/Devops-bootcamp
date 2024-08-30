@@ -159,3 +159,33 @@ click on the one you want to manage
 
  #Paste the values you copied from Route 53 into the appropriate fields
  ![39](![alt text](<img folder/Screen Shot 2024-08-30 at 07.59.05.png>))
+
+# Head back to your AWS console and click on Create record.
+![40](![alt text](<img folder/Screen Shot 2024-08-29 at 17.21.42.png>))
+
+ # Paste your Elastic IP address and then click on Create records.
+![41](![alt text](<img folder/Screen Shot 2024-08-29 at 20.32.51.png>))
+
+ # Your A record has been successfully created.
+![42](![alt text](<img folder/Screen Shot 2024-08-29 at 20.32.51.png>))
+
+# Click on create record again, to create the record for your sub domain.
+![43](![alt text](<img folder/Screen Shot 2024-08-29 at 20.33.43.png>))
+
+# Input the Record name(www➀), paste your IP address➁, and then click on Create records➂.
+
+ # Open your terminal and run sudo nano /etc/nginx/sites-available/default to edit your settings. Enter your domain and subdomain names, then save the changes.
+ ![44](![alt text](image.png))
+
+
+ # Restart your nginx server by running the sudo systemctl restart nginx command Then visit your websites
+
+# install cetrbot to make your website secure
+Install certbot by executing the following commands: sudo apt update sudo apt install certbot python3-certbot-nginx
+(![alt text](image-1.png))
+
+# Execute the sudo certbot --nginx command to request your certificate. Follow the instructions provided by certbot and select the domain name for which you would like to activate HTTPS.
+
+
+
+
