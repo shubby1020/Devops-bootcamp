@@ -167,15 +167,15 @@ click on the one you want to manage
 ![41](![alt text](<img folder/Screen Shot 2024-08-29 at 20.32.51.png>))
 
  # Your A record has been successfully created.
-![42](![alt text](<img folder/Screen Shot 2024-08-29 at 20.32.51.png>))
+(![alt text](<img folder/Screen Shot 2024-08-29 at 20.32.51.png>))
 
 # Click on create record again, to create the record for your sub domain.
-![43](![alt text](<img folder/Screen Shot 2024-08-29 at 20.33.43.png>))
+(![alt text](<img folder/Screen Shot 2024-08-29 at 20.33.43.png>))
 
 # Input the Record name(www➀), paste your IP address➁, and then click on Create records➂.
 
  # Open your terminal and run sudo nano /etc/nginx/sites-available/default to edit your settings. Enter your domain and subdomain names, then save the changes.
- ![44](![alt text](image.png))
+ (![alt text](image.png))
 
 
  # Restart your nginx server by running the sudo systemctl restart nginx command Then visit your websites
