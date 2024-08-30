@@ -127,3 +127,35 @@ Scroll down to the download section, right-click to open the menu, and select In
 # Restart Nginx to apply the changes by running: sudo systemctl restart nginx.
 
  # Open a web browser and go to your Public IPv4 address/Elastic IP address to confirm that your website is working as expected.
+
+# Create An A Record
+To make your website accessible via your domain name rather than the IP address, you'll need to set up a DNS record. I did this by buying my domain from Namecheap and then moving hosting to AWS Route 53, where I set up an A record.
+
+# note
+I use godaddy for the domain name
+
+# Type godaddy dashboard
+click on the fisrt link
+![32](![alt text](<img folder/Screen Shot 2024-08-29 at 17.13.32.png>))
+
+# Then you will see domain name
+click on the one you want to manage
+![33](![alt text](<img folder/Screen Shot 2024-08-29 at 17.13.55.png>))
+
+ # Go back to your AWS console, search for Route 53①, and then choose Route 53② from the list of services shown.
+![34](![alt text](<img folder/Screen Shot 2024-08-29 at 17.15.28.png>))
+
+# Click on Get started.
+![35](![alt text](<img folder/Screen Shot 2024-08-29 at 17.15.28.png>))
+
+# Select Create hosted zones① and click on Get started②.
+![36](![alt text](<img folder/Screen Shot 2024-08-29 at 17.18.46.png>))
+
+ # Enter your Domain name①, choose Public hosted zone② and then click on Create hosted zone③.
+ ![37](![alt text](<img folder/Screen Shot 2024-08-29 at 17.19.52.png>))
+
+ # Select the created hosted zone① and copy the assigned Values②.
+ ![38](![alt text](<img folder/Screen Shot 2024-08-29 at 17.21.42.png>))
+
+ #Paste the values you copied from Route 53 into the appropriate fields
+ ![39](![alt text](<img folder/Screen Shot 2024-08-30 at 07.59.05.png>))
