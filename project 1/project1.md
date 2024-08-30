@@ -2,69 +2,69 @@
 
 # Go to the aws management console
 And type in the search Ec 2 and click on it
-![1](![alt text](<../img folder/pic-1.png>))
+![1](![alt text](<img folder/pic-1.png>))
 
 # And now in the Ec 2 dashboard 
 click on launch instance 
-![2](![alt text](<../img folder/img 2.png>))
+![2](![alt text](<img folder/img 2.png>))
 
 # And now name your server
 And also choose ubuntu server and scroll down
-![3](![alt text](<../img folder/img 3.png>))
+![3](![alt text](<img folder/img 3.png>))
 
 # After scrolling down you should see create key pair login
 click on it 
-![4](![alt text](<../img folder/img 3.png>))
+![4](![alt text](<img folder/img 3.png>))
 
 # Now in create key pair 
 choose the name for your key pair and click on it then scroll down
-![5](![alt text](<../img folder/img5.png>))
+![5](![alt text](<img folder/img5.png>))
 
 # After scrolling down you should see network settings 
 click on all the unchecked checkboxes then scroll down
-![6](![alt text](<../img folder/img 6.png>))
+![6](![alt text](<img folder/img 6.png>))
 
 # After scrolling down you should see view all instances
 click on it 
-![7](![alt text](<../img folder/img 7.png>))
+![7](![alt text](<img folder/img 7.png>))
 
 # Now you should see actions,instance id,etc
 click on instance id
-![8](![alt text](<../img folder/img 8.png>))
+![8](![alt text](<img folder/img 8.png>))
 
 # Now in instance id 
 click on conncet
-1[9](![alt text](<../img folder/img 9.png>))
+1[9](![alt text](<img folder/img 9.png>))
 
 # Now in connect
 click on SSH client
-![10](![alt text](<../img folder/img 10.png>))
+![10](![alt text](<img folder/img 10.png>))
 
 # Now in SSH client
 copy the example link
-![11](![alt text](<../img folder/img 11.png>))
+![11](![alt text](<img folder/img 11.png>))
 
 # Now go the folder your .pem file was downloaded and click on it and open with terminal
 and now paste the link you copied
-![12](![alt text](<../img folder/Screen Shot 2024-08-19 at 20.30.58.png>))
+![12](![alt text](<img folder/Screen Shot 2024-08-19 at 20.30.58.png>))
 
 # Go bact to the aws manangement console
-![13](![alt text](<../img folder/Img 14.png>))
+![13](![alt text](<img folder/Img 14.png>))
 
 # Now here click on search
 And search elastic ip 
-1[14](![alt text](</img folder/Screen Shot 2024-08-21 at 14.25.27.png>))
+1[14](![alt text](<img folder/Screen Shot 2024-08-21 at 14.25.27.png>))
 
 # And now in elastic ip 
 click on allocate ip address
-![15](![alt text](</img folder/img-16.png>))
+![15](![alt text](<img folder/img-16.png>))
 
 # Then scroll down
 keep all the settings unchanged and click allocate
-![16](![alt text](</img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
+![16](![alt text](<img folder/Screen Shot 2024-08-19 at 20.39.55.png>))
 
 # then click on associate this elastic ip
-![17](![alt text](<img folder/img18.png>))
+![17](![alt text](< img folder/img18.png>))
 
 # After clicking on it scroll down and  click on associate 
 ![18](![alt text](<img folder/15.png>))
@@ -98,7 +98,32 @@ Scroll down to the download section, right-click to open the menu, and select In
 ![23](![alt text](<img folder/Screen Shot 2024-08-28 at 18.00.18.png>))
 
 # Select the Network tab.
+![24](![alt text](<img folder/Screen Shot 2024-08-19 at 21.43.21.png>))
+
+ # Click the Download button
+
+ # After its done downloading
+ in the network tab click on the zip file and choose copy and under copy choose copy url
+ ![25](![alt text](<img folder/Screen Shot 2024-08-19 at 21.50.34.png>))
+
+# Run this command sudo curl -o /var/www/html/2137_barista_cafe.zip https://www.tooplate.com/zip-templates/2137_barista_cafe.zip to download the websites file to your html directory.
+![26](![alt text](<img folder/Screen Shot 2024-08-19 at 21.51.47.png>))
 
 
- # Click the Download buttom
+# To install the unzip tool, run the following command: sudo apt install unzip.
+![27](![alt text](<img folder/Screen Shot 2024-08-19 at 21.56.09.png>))
 
+# Navigate to the web server directory by running the following command: cd /var/www/html.
+
+# Unzip the ocntents of your websites by running the command sudo unzip website template
+![29](![alt text](<img folder/Screen Shot 2024-08-19 at 22.33.36.png>))
+
+ # Update your nginx configuration by running the command sudo nano /etc/nginx/sites-available/default. Then, edit the root directive within your server block to point to the directory where your downloaded website content is stored.
+ ![30](![alt text](<img folder/Screen Shot 2024-08-19 at 22.34.52.png>))
+
+# edit the root directory ro the new one
+![31](![alt text](<img folder/Screen Shot 2024-08-21 at 13.58.36.png>))
+
+# Restart Nginx to apply the changes by running: sudo systemctl restart nginx.
+
+ # Open a web browser and go to your Public IPv4 address/Elastic IP address to confirm that your website is working as expected.
