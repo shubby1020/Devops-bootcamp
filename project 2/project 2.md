@@ -69,3 +69,19 @@ server {
  # Edit the root directive within your server block to point to the directory where your downloaded website content is stored.
  [![alt text](<Screen Shot 2024-09-02 at 09.11.48.png>)]
 
+# Configure your second website by creating a new file in the Nginx sites-available directory with the following command: sudo nano /etc/nginx/sites-available/health.
+[![alt text](<Screen Shot 2024-09-02 at 09.09.03.png>)] 
+
+# Then do what we did before and edit the root directive 
+With what you downloaded 
+[![alt text](<Screen Shot 2024-09-02 at 09.11.48.png>)]
+
+# creates a symbolic link for both of the websites by running these commands
+1.sudo ln -s /etc/nginx/sites-available/cleaning /etc/nginx/sites-enabled/
+2.sudo ln -s /etc/nginx/sites-available/health /etc/nginx/sites-enabled/
+[![alt text](<img/Screen Shot 2024-09-06 at 17.07.02.png>)]
+
+
+
+
+
